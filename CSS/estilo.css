@@ -1,0 +1,25 @@
+body{
+    background-color: blueviolet;
+}
+
+header{
+    font-size: 45px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+textarea{
+    align-items: center;
+}
+
+.enun{
+    font-size: 30px;
+	justify-content: justify;
+	font-family: Times New Roman,serif;
+}
+
+.boxi{
+	border: 2px solid #000000;
+	border-radius: 3px;
+}

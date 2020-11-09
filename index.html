@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="JS/logica.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <form class="Vigenere">
+        <h1>Frase Cifrar o Descifrar:</h1>
+        <input type="text" class="boxi" id="Testo">
+        <h1>Contraseña</h1>
+        <input class="boxi" id="Contra" type="text" /> 
+        <input class="boxi" id="Cifrar" onclick="Reconstruir(Encriptar(true))" type="button" value="Cifrar" /> 
+        <input class="boxi" id="Descifrar" onclick="Reconstruir(Encriptar(false))" type="button" value="Descifrar" /> 
+        <h1>Resultado</h1>
+        <input type="text" class="boxi" id="Resultado" readonly="readonly">
+    </form>
+</body>
+</html>
